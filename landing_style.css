@@ -1,0 +1,38 @@
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  min-height: 100%;
+}
+
+#body_01 {
+  display: flex;
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  text-align: center;
+}
+
+.body-left {
+  flex: 50%;
+}
+
+.body-right img {
+  position: relative;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
