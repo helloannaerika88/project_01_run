@@ -12,30 +12,30 @@ class Game {
     // this.backgroundImages = [
     //     { src: loadImage('/assets/background/desktop_bg.png'), x:0, speed: 0}
     // ]
-    this.playerImage = loadImage("/assets/player/Coco.png");
+    this.playerImage = loadImage("./assets/player/Coco.png");
     this.domeImages = [
       {
-        src: loadImage("/assets/coins/Kuku_dome 1.png"),
+        src: loadImage("./assets/coins/Kuku_dome 1.png"),
         x: 0,
         speed: 1,
       },
       {
-        src: loadImage("/assets/coins/Kuku_dome 1.png"),
+        src: loadImage("./assets/coins/Kuku_dome 1.png"),
         x: 0,
         speed: 2,
       },
       {
-        src: loadImage("/assets/coins/Kuku_dome 1.png"),
+        src: loadImage("./assets/coins/Kuku_dome 1.png"),
         x: 0,
         speed: 3,
       },
       {
-        src: loadImage("/assets/coins/Kuku_dome 1.png"),
+        src: loadImage("./assets/coins/Kuku_dome 1.png"),
         x: 0,
         speed: 4,
       },
     ];
-    this.domeImage = loadImage("/assets/coins/Kuku_dome 1.png");
+    this.domeImage = loadImage("./assets/coins/Kuku_dome 1.png");
   }
   draw() {
     clear();
