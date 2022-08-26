@@ -1,12 +1,12 @@
 const game = new Game();
-let song;
+// let song;
 let font,
   fontsize = 18;
 
 
 function preload() {
   game.preload();
- song = loadSound("../assets/audio/Child Saying Ouch.mp3");
+//  song = loadSound("../assets/audio/Child Saying Ouch.mp3");
 }
 
 function setup() {
