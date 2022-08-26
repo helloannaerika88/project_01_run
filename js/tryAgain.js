@@ -20,12 +20,12 @@
 let img;
 
 function preload(){
- img = loadImage('./assets/background/try_again.png'); 
+ img = loadImage('../assets/background/try_again.png'); 
   
 }
 
 function setup() {
-  createCanvas(1280, 720, WEBGL);
+  createCanvas(854, 480, WEBGL);
   // angleMode(DEGREES);
 }
 
