@@ -1,7 +1,7 @@
 let imgWin;
 
 function preload(){
- imgWin = loadImage('../assets/background/you_win.png'); 
+ imgWin = loadImage('./assets/background/you_win.png'); 
   
 }
 

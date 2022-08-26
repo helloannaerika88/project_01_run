@@ -20,7 +20,7 @@
 let img;
 
 function preload(){
- img = loadImage('../assets/background/try_again.png'); 
+ img = loadImage('./assets/background/try_again.png'); 
   
 }
 
