@@ -1,9 +1,12 @@
 const game = new Game();
+let song;
 let font,
   fontsize = 18;
 
+
 function preload() {
   game.preload();
+ song = loadSound("../assets/audio/Child Saying Ouch.mp3");
 }
 
 function setup() {
@@ -12,6 +15,7 @@ function setup() {
   // ('font-size: 18px; color: white');
   textSize(fontsize);
   textAlign(CENTER, CENTER);
+  // let song = loadSound('./assets/audio/Child Saying Ouch.mp3')
 }
 
 function draw() {
@@ -30,8 +34,10 @@ function drawWords(x) {
     text(`💛💛💛 ${game.player.score}`, 500, 50);
   } else if ((game.player.score === 2)) {
     text(`💛💛 ${game.player.score}`, 500, 50);
+    if (!song.isPlaying()) song.play();
   } else if ((game.player.score === 1)) {
     text(`💛 ${game.player.score}`, 500, 50);
+    if (!song.isPlaying()) song.play();
   } else if (game.player.score === 0) {
     document.location.href = "tryAgain.html";
   }
