@@ -7,6 +7,7 @@ class Game {
     this.obstacles = [];
     this.domeImage;
     this.domeImages;
+    this.song;
   }
   preload() {
     // this.backgroundImages = [
@@ -36,6 +37,7 @@ class Game {
       },
     ];
     this.domeImage = loadImage("./assets/coins/Kuku_dome 1.png");
+    this.song = loadSound("../assets/audio/Child Saying Ouch.mp3");
   }
   draw() {
     clear();

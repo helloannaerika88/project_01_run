@@ -69,7 +69,7 @@ class Obstacle {
       // decrement the score from the initial score of 100
       game.player.score--;
       console.log(game.player.score);
-      if (!song.isPlaying()) song.play();
+      if (!game.song.isPlaying()) game.song.play();
       return true;
     }
   }
